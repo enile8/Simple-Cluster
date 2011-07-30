@@ -1,0 +1,4 @@
+A simple clustering example, I found most of this posted on stackoverflow, but I added in BeautifulSoup to parse a sample of the Reuters data extract. The data was crudely cleaning and placed into an XML file, this example only parses out the main article body from the text, and ignores the rest. This code wasn't made to run on such a large dataset so its very slow, also the code isn't optimized to cluster documents like this, so you will find that its not very accurate.
+My blog post that goes along with this code http://enile8.org/blog/document-clustering-with-python
+
+Thanks to Efes Grünzeug (http://wersdoerfer.com/~jochen/s9y/) for posting the original code.
